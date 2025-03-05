@@ -7,7 +7,7 @@ function convertIntegerParameter(integer){
     if(integer % 7 === 0){
     return "Ha";
     }
-    if(integer % 7 === 0 && integer % 3 === 0){
+    if(integer % 7 === 0, integer % 3 === 0){
     return "Yee Ha";
     }
     else{
