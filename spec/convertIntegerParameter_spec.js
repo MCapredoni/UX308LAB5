@@ -16,7 +16,7 @@ describe("test convertIntegerParameter", function() {
 });
 describe("test convertIntegerParameter", function() {
     it("Tests parameters", function() {
-    let integer = 21;
+    let integer = 42;
     let parameters = convertIntegerParameter(integer);
     expect(parameters).toBe("Yee Ha");
     });
